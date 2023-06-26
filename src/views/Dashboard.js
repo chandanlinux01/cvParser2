@@ -22,7 +22,6 @@ function Dashboard() {
     <>
       <Container fluid>
       <Row>
-   
       <Col md={6} className="mb-2">
         <Button onClick={toggleShowB} className="mb-2">
           Toggle Toast <strong>without</strong> Animation
@@ -45,5 +44,4 @@ function Dashboard() {
     </>
   );
 }
-
 export default Dashboard;
